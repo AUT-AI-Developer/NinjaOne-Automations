@@ -1,0 +1,26 @@
+# Never publish customer configurations, exports, certificates, secrets, or logs.
+*.log
+*.pfx
+*.p12
+*.p8
+*.key
+*.pem
+*.cer
+*.crt
+*.p7b
+*.p7c
+*.jks
+*.mobileconfig
+.env
+.env.*
+!.env.example
+*credentials*
+*secrets*
+*token*
+*customer-export*
+WatchGuardVPN.json
+**/customer-config/**
+**/exports/**
+**/Logs/**
+*.bak
+*.tmp
